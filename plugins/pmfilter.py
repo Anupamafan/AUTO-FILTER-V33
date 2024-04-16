@@ -2079,8 +2079,7 @@ async def auto_filter(client, msg, spoll=False):
             search = search.replace(":","")
             files, offset, total_results = await get_search_results(message.chat.id ,search, offset=0, filter=True)
             settings = await get_settings(message.chat.id)
-            if not files:
-                await m.delete()
+            if not files:               
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
                 else:
@@ -2091,14 +2090,17 @@ async def auto_filter(client, msg, spoll=False):
             return
     else:
         message = msg.message.reply_to_message  # msg will be callback query
-        search, files, offset, total_results = spoll        
+        search, files, offset, total_results = spoll
+        m=await message.reply_sticker("CAACAgQAAxkBAAEKSxplArIUActk4ORQuFn3DHFvBqQCOgACBQMAAnJxFyVYcSIunXgGjjAE",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/HP_MOVIES_WORLD")]]) 
+        )
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
     key = f"{message.chat.id}-{message.id}"
     FRESH[key] = search
     temp.GETALL[key] = files
-    temp.SHORT[message.from_user.id] = message.chat.id
+    temp.SHORT[message.from_user.id] = message.chat.id    
     if settings["button"]:
         btn = [
             [
