@@ -2368,9 +2368,9 @@ async def advantage_spell_chok(client, msg):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep()
-                    await spell_check_del.delete()    
-
-manual_filters(client, message, text=False):
+                    await spell_check_del.delete()   
+                    
+async def manual_filters(client, message, text=False):
     settings = await get_settings(message.chat.id)
     group_id = message.chat.id
     name = text or message.text
@@ -2388,7 +2388,7 @@ manual_filters(client, message, text=False):
                 try:
                     if fileid == "None":
                         if btn == "[]":
-                            joelkb = await client.send_message(
+                            joelkb = await client.d_message(
                                 group_id, 
                                 reply_text, 
                                 disable_web_page_preview=True,
