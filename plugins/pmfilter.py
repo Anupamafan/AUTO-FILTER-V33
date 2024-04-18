@@ -2314,7 +2314,7 @@ async def advantage_spell_chok(client, msg):
                 text=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
-            await asyncio.sleep(30)
+            await asyncio.sleep()
             await k.delete()
             return
         regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
@@ -2351,7 +2351,7 @@ async def advantage_spell_chok(client, msg):
                 text=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
-            await asyncio.sleep(30)
+            await asyncio.sleep()
             await k.delete()
             return
         SPELL_CHECK[mv_id] = movielist
