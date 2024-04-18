@@ -89,7 +89,7 @@ Bʏ @ARAKAL_THERAVAD_MOVIES"""
 
 2) ᴛʏᴘᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ʏᴇᴀʀ
 
-3) Cʜᴇᴄᴋ 👉 <a href=@OTT_ARAKAL_THERAVAD_MOVIESS> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a> Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
+3) Cʜᴇᴄᴋ 👉 @OTT_ARAKAL_THERAVAD_MOVIESS Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
 
 4) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
 
@@ -99,7 +99,7 @@ Bʏ @ARAKAL_THERAVAD_MOVIES"""
 <b>➠➠ 📌 OTT യിൽ മൂവി റിലീസ് അയാൽ മാത്രമെ ടെലഗ്രാമിൽ വരൂ..!!💥
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-Cʜᴇᴄᴋ 👉 <a href=@OTT_ARAKAL_THERAVAD_MOVIESS> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a> Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
+Cʜᴇᴄᴋ 👉 @OTT_ARAKAL_THERAVAD_MOVIESS Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝
 
  <i>‼ 𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @ARAKAL_THERAVAD_MOVIES_02_bot """
@@ -112,7 +112,7 @@ Cʜᴇᴄᴋ 👉 <a href=@OTT_ARAKAL_THERAVAD_MOVIESS> 𝐎𝐓𝐓 𝐔𝐏�
 
 2) ᴛʏᴘᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ʏᴇᴀʀ
 
-3) Cʜᴇᴄᴋ 👉 <a href=@OTT_ARAKAL_THERAVAD_MOVIESS> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a> Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
+3) Cʜᴇᴄᴋ 👉 @OTT_ARAKAL_THERAVAD_MOVIESS Kɴᴏᴡ Tʜᴇ Oᴛᴛ Uᴘᴅᴀᴛᴇꜱ..!!
 
 4) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
     
