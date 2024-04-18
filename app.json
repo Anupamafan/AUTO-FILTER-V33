@@ -24,12 +24,12 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "12618934",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "49aacd0bc2f8924add29fb02e20c8a16",
             "required": true
         },
         "CHANNELS": {
@@ -38,17 +38,17 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "Telegram_files",
+            "value": "1297128957",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "Telegram_files",
+            "value": "https://telegra.ph/file/2387123b0e6afba6047f6.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "Telegram_files",
+            "value": "-1002010307613",
             "required": true
         },
         "AUTH_USERS": {
@@ -57,22 +57,22 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "Telegram_files",
+            "value": "-1001952162324",
             "required": false
         },
         "AUTH_GROUP": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "Telegram_files",
+            "value": "-1001952162324",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
-            "value": "Telegram_files",
+            "value": "mongodb+srv://Manaf:Manaf@cluster0.h8xkden.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Telegram_files",
+            "value": "Manaf",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -82,12 +82,12 @@
         },
         "PREMIUM_LOGS": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
-            "value": "Telegram_files",
+            "value": "-1002079299634",
             "required": false
         },
         "APP_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
-            "value": "Telegram_files",
+            "value": "herokuapp.com",
             "required": false
         }
     },
