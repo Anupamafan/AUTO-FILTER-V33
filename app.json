@@ -57,22 +57,22 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "-1001952162324",
+            "value": "-1001738083595",
             "required": false
         },
         "AUTH_GROUP": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "-1001952162324",
+            "value": "-1001738083595",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
-            "value": "mongodb+srv://Manaf:Manaf@cluster0.h8xkden.mongodb.net/",
+            "value": "mongodb+srv://atmanaf:atmanaf@cluster0.k4xmqd4.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Manaf",
+            "value": "atmanaf",
             "required": false
         },
         "COLLECTION_NAME": {
