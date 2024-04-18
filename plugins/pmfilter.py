@@ -2254,10 +2254,9 @@ async def auto_filter(client, msg, spoll=False):
                 await hmm.delete()
                 await message.delete()
         except Exception as e:
-            logger.exception(e)
-            fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
+            logger.exception(e)            
             m=await message.reply_text("🔎") 
-            fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
                 if settings['auto_delete']:
@@ -2270,7 +2269,7 @@ async def auto_filter(client, msg, spoll=False):
                 await fek.delete()
                 await message.delete()
     else:
-        fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
+        fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await m.delete()
         try:
             if settings['auto_delete']:
@@ -2310,8 +2309,9 @@ async def advantage_spell_chok(client, msg):
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-            k = await msg.reply_text(
-                text=script.I_CUDNT.format(mv_rqst),
+            k = await msg.reply_photo(
+                photo=SPELL_IMG,
+                caption=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
             await asyncio.sleep()
@@ -2347,8 +2347,9 @@ async def advantage_spell_chok(client, msg):
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-            k = await msg.reply_text(
-                text=script.I_CUDNT.format(mv_rqst),
+            k = await msg.reply_photo(
+                photo=SPELL_IMG, 
+                caption=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
             await asyncio.sleep()
@@ -2362,8 +2363,9 @@ async def advantage_spell_chok(client, msg):
             )
         ] for k, movie in enumerate(movielist)]
         btn.append([InlineKeyboardButton(text="↭ ᴄʟᴏꜱᴇ ↭", callback_data=f'spol#{reqstr1}#close_spellcheck')])
-        spell_check_del = await msg.reply_text(
-            text=script.CUDNT_FND.format(mv_rqst),
+        spell_check_del = await msg.reply_photo(
+            photo=(SPELL_IMG),
+            caption=script.CUDNT_FND.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(btn)
         )
         try:
@@ -2375,7 +2377,7 @@ async def advantage_spell_chok(client, msg):
                 await save_group_settings(grpid, 'auto_delete', True)
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
-                    await asyncio.sleep(60)
+                    await ayncio.sleep(60)
                     await spell_check_del.delete()
     except:
         try:
@@ -2388,8 +2390,9 @@ async def advantage_spell_chok(client, msg):
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-            k = await msg.reply_text(
-                text=script.I_CUDNT.format(mv_rqst),
+            k = await msg.reply_photo(
+                photo=SPELL_IMG, 
+                caption=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
             await asyncio.sleep()
@@ -2403,8 +2406,9 @@ async def advantage_spell_chok(client, msg):
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
-            k = await msg.reply_text(
-                text=script.I_CUDNT.format(mv_rqst),
+            k = await msg.reply_photo(
+                photo=SPELL_IMG, 
+                caption=script.I_CUDNT.format(mv_rqst),
                 reply_markup=InlineKeyboardMarkup(button)
             )
             await asyncio.sleep()
@@ -2423,8 +2427,9 @@ async def advantage_spell_chok(client, msg):
             for k, movie_name in enumerate(movielist)
         ]
         btn.append([InlineKeyboardButton(text="↭ ᴄʟᴏꜱᴇ ↭", callback_data=f'spol#{reqstr1}#close_spellcheck')])
-        spell_check_del = await msg.reply_text(
-            text=script.CUDNT_FND.format(mv_rqst),
+        spell_check_del = await msg.reply_photo(
+            photo=(SPELL_IMG),
+            caption=script.CUDNT_FND.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(btn)
         )
         try:
