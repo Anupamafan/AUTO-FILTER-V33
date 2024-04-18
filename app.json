@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/RolexPc/Testv1",
-    "repository": "https://github.com/RolexPc/Testv1",
+    "website": "https://github.com/RolexPc/AUTO-FILTER-V11",
+    "repository": "https://github.com/RolexPc/AUTO-FILTER-V11",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
