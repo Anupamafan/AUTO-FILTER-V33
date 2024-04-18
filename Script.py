@@ -265,28 +265,13 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
-    # PLESE DO NOT REMOVE ANY CREDITS ❤️‍🩹
-    CREDITS_TXT = """<b>
-❤️‍🩹 <u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴇʀʏᴏɴᴇ</u>
-
-• ᴍᴀɪɴ ᴏᴡɴᴇʀ : <a href="https://t.me/DeletedFromEarth">Hᴀʀꜱʜᴀʟ ❤️‍🔥</a>
-• ʙᴀꜱᴇ ʀᴇᴘᴏ : <a href="https://t.me/creatorbeatz">Jᴏᴇʟ ᠰ TɢX</a>
-• sᴛʀᴇᴀᴍ ғᴇᴀᴛᴜʀᴇ : <a href="https://t.me/LazyDeveloperr">LazyDeveloper</a>
-• sᴛʀᴇᴀᴍ ᴡᴇʙꜱɪᴛᴇ : <a href="https://t.me/Biisal">Bɪɪsᴀʟ</a>
-• ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴅᴇꜱ : <a href="https://t.me/Rk_botowner">Rɪꜱʜɪᴋᴇꜱʜ</a>
-• ᴡᴇʟᴄᴏᴍᴇ ᴀɴɪᴍᴀᴛɪᴏɴ : <a href="https://t.me/Xavier_707">𝑿𝒂𝒗𝒊𝒆𝒓</a>
-• ꜱᴛʀᴇᴀᴍ ꜱʜᴏʀᴛʟɪɴᴋ : <a href="https://t.me/Mr_SPIDY">⚝𝗠𝗿.𝗦𝗣𝗜𝗗𝗬⚝</a>
-
-ɪ ᴀᴍ ꜱᴏʀʀʏ ɪꜰ ɪ ꜰᴏʀɢᴏᴛ ꜱᴏᴍᴇᴏɴᴇ 🫂
-ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ʜᴇʟᴘɪɴɢ ɪɴ ᴛʜɪꜱ ᴀᴍᴀᴢɪɴɢ ʀᴏʟʟᴇʀ ᴄᴏᴀꜱᴛᴇʀ ᴊᴏᴜʀɴᴇʏ 🚀</b>
-""" 
-   # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
     CAPTION = """
- <b> 📂 <i><a href"https://t.me/+5fD6dBInCsA3MzA1">{file_name}</a></i></b>\n\n
+ <b> 📂 <i><a href="https://t.me/+5fD6dBInCsA3MzA1">{file_name}</a></i></b>
+ 
  <b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{file_size}</b>
 
- <b>╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
+<b>╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
   ♻️ 𝑱𝑶𝑰𝑵 :- <a href=https://t.me/+LGvWm7Ojx_U4NjU9> 𝐆𝐑𝐎𝐔𝐏 </a>
   ♻️ 𝑱𝑶𝑰𝑵 :- <a href=https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a>
   ♻️ 𝑱𝑶𝑰𝑵 :- <a href=https://t.me/ARAKAL_THERAVAD_GROUP_LINKS> 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 </a>
