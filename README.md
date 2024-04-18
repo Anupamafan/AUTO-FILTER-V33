@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/6fa70325813885809a64a.jpg" alt="ARAKAL THERAVAD MOVIES">
+  <img src="https://telegra.ph/file/2387123b0e6afba6047f6.jpg" alt="ARAKAL THERAVAD MOVIES">
 </p>
 <h1 align="center">
   <a href="https://t.me/ARAKAL_THERAVAD_MOVIES">ARAKAL THERAVAD MOVIES BOTS</a>
