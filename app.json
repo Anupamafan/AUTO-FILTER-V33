@@ -43,7 +43,7 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "https://telegra.ph/file/2387123b0e6afba6047f6.jpg",
+            "value": "https://telegra.ph/file/cbcf488071746af0b83dd.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
