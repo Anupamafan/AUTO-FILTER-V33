@@ -76,7 +76,7 @@ async def start(client, message):
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
-        m=await message.reply_sticker("CAACAgIAAxkBAAELoyVl6o7mqNsyJgKBszgCUxIfZgcGRAACdhEAAsMAASlJLbkjGWa6Dog0BA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEK6JBlcDrxx2kKgHFEO-EyNFLg4BDG1AAC7gwAAngciVfzwSTJ0UT6ajME") 
         await asyncio.sleep(3)
         await m.delete()
         await message.reply_photo(
@@ -87,30 +87,29 @@ async def start(client, message):
         )
         return
         
-    if AUTH_CHANNEL and not await is_subscribed(client, message):
+    if AUTH_CHANNEL and not await is_req_subscribed(client, message):
         try:
-            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
+            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL), creates_join_request=True)
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = [
             [
                 InlineKeyboardButton(
-                    "📢 𝐉𝐨𝐢𝐧 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢", url=invite_link.invite_link
+                    "📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe" or message.command[1] != "send_all":
+        if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
-                pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("🔄 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 🔄", callback_data=f"checksub#{kk}#{file_id}")])
+                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"checksub#{kk}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("🔄 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**♦️ READ THIS INSTRUCTION ♦️\n\n🗣 നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ 📢 Request to join Channel 📢 എന്ന ബട്ടണിലോ താഴെ കാണുന്ന ലിങ്കിലോ ക്ലിക്ക് ചെയ്യാവുന്നതാണ്. Join channel ക്ലിക്ക് ചെയ്ത ശേഷം 🔄 Try Again 🔄 എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ അയച്ചു തരുന്നതാണ്..😍\n\n🗣 In Order To Get The Movie Requested By You in Our Group, You Must Have To Join Our Official Channel First By Clicking 📢 Request to Join Channel 📢 Button or the Link shown Below. After That, Click 🔄 Try Again 🔄 Button. I'll Send You That Movie 🙈\n\n👇 CLICK REQUEST TO JOIN CHANNEL & CLICK TRY AGAIN 👇**",
+            text="ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
