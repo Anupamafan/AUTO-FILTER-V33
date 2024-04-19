@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/RolexPc/AUTO-FILTER-V22",
-    "repository": "https://github.com/RolexPc/AUTO-FILTER-V22",
+    "website": "https://github.com/RolexPc/AUTO-FILTER-V33",
+    "repository": "https://github.com/RolexPc/AUTO-FILTER-V33",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -67,12 +67,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
-            "value": "mongodb+srv://atmanaf:atmanaf@cluster0.k4xmqd4.mongodb.net/",
+            "value": "mongodb+srv://anuragam:anuragam@cluster0.p5xynbv.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "atmanaf",
+            "value": "anuragam",
             "required": false
         },
         "COLLECTION_NAME": {
