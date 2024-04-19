@@ -448,7 +448,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/+aJDEvew6ZkpkMTRl")]
+            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_03")]
         )
     
     if not settings["button"]:
@@ -613,7 +613,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/+aJDEvew6ZkpkMTRl")]
+            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_03")]
         )
     
     if not settings["button"]:
@@ -2171,7 +2171,7 @@ async def auto_filter(client, msg, spoll=False):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/+aJDEvew6ZkpkMTRl")]
+            [InlineKeyboardButton(text="🎬 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 🎬", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_03")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     cur_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
