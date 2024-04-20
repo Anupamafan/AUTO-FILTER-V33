@@ -125,9 +125,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://{kushaguhggtg-8805ff3f4274.herokuapp.com}/".format(FQDN)
+    URL = "https://{}/".format(FQDN)
 else:
-    URL = "http://{kushaguhggtg-8805ff3f4274.herokuapp.com}/".format(FQDN)
+    URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ''))
